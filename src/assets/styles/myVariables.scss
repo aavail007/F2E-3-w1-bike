@@ -1,0 +1,18 @@
+$primary: #039ecf;
+$primary-2: #28c0f0;
+$secondary: #ffde3f;
+$primary-light: #f3f8fb;
+$black: #363636;
+$gray: #7d7d7d;
+
+.btn-primary {
+  background-color: $primary;
+  border-color: $primary;
+  padding: 8px 70px;
+  font-size: 24px;
+  border-radius: 8px;
+}
+
+.cur-pointer {
+    cursor: pointer;
+}
