@@ -45,16 +45,16 @@
       <h4 class="text-center title">熱門路線</h4>
       <p class="gray-word mt-4">台灣的各個美景，都美不勝收。等你一同來發現這座寶島的奧妙！</p>
       <div class="row hot-path mt-5">
-        <div class="col-md-6 col-12 cur-pointer">
+        <div class="col-md-6 col-12 cur-pointer my-2">
           <img src="@/assets/img/path/path1.png" />
         </div>
-        <div class="col-md-6 col-12 cur-pointer">
+        <div class="col-md-6 col-12 cur-pointer my-2">
           <img src="@/assets/img/path/path2.png" />
         </div>
-        <div class="col-md-6 col-12 cur-pointer">
+        <div class="col-md-6 col-12 cur-pointer my-2">
           <img src="@/assets/img/path/path3.png" />
         </div>
-        <div class="col-md-6 col-12 cur-pointer">
+        <div class="col-md-6 col-12 cur-pointer my-2">
           <img src="@/assets/img/path/path4.png" />
         </div>
       </div>
@@ -69,7 +69,7 @@
         </div>
         <div class="col-md-5 step-info">
           <div class="step">東海大學站</div>
-          <div class="place gray-word">地址: 臺東縣951綠島鄉溫泉路256號</div>
+          <div class="place gray-word">地址: 台中市西屯區台灣大道四段1727號</div>
           <div class="d-flex mt-2 mb-5">
             <div class="d-flex mt-2 align-items-center">
               <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -92,14 +92,22 @@
               <span class="mx-2">距離 : 12 km</span>
             </div>
           </div>
-          <div class="c-bg-primary my-4">可租車輛
+          <div class="c-bg-primary my-4">
+            可租車輛
             <span>11</span>
           </div>
-          <div class="c-bg-gray-2 my-4">可停車位
+          <div class="c-bg-gray-2 my-4">
+            可停車位
             <span>0</span>
           </div>
         </div>
       </div>
+    </section>
+    <!-- 旅途中美景 -->
+    <section class="c-section">
+      <h4 class="text-center title">旅途中美景</h4>
+      <p class="gray-word mt-4">台灣的各個美景，都美不勝收。等你一同來發現這座寶島的奧妙！</p>
+      <img class="view-img mt-5" src="@/assets/img/good_view.png" />
     </section>
   </div>
 </template>
@@ -115,7 +123,7 @@ export default {
 
 <style lang="scss" scoped>
 .home {
-  background-color: #f8f9fb;
+  background-color: $bg;
 }
 .banner {
   background-image: url('../assets/img/bg.png');
@@ -217,6 +225,11 @@ export default {
     text-align: left;
     font-size: 16px;
   }
+}
+
+// 旅途中美景
+.view-img {
+  width: 100%;
 }
 
 @media screen and (max-width: 768px) {
