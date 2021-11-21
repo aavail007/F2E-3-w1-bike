@@ -1,6 +1,6 @@
 module.exports = {
   // build輸出目錄
-  outputDir: 'travel',
+  outputDir: 'bike',
 
   // 靜態資源目錄（js, css, img）
   assetsDir: 'assets',
