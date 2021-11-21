@@ -5,7 +5,7 @@
         <img src="@/assets/img/bike_logo.png" alt="" class="d-inline-block align-text-top mx-1" />
         <img src="@/assets/img/Taiwan_logo.png" alt="" class="d-inline-block align-text-top mx-1" />
       </a>
-      <ul class="nav justify-content-end">
+      <ul class="nav justify-content-end d-none d-md-flex">
         <li class="nav-item">
           <a class="nav-link active text-white fw-bold" aria-current="page" href="#">首頁</a>
         </li>
